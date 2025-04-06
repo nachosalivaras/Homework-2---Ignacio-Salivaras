@@ -67,12 +67,3 @@ void Curso::imprimir_en_orden_alfabetico(){
     }
 }
 
-void mostrartmenu(){
-    std::cout << "\n========== MENÚ PRINCIPAL ==========\n";
-    std::cout << "1. Agregar estudiante\n";
-    std::cout << "2. Eliminar estudiante\n";
-    std::cout << "3. Imprimir lista de estudiantes ordenada\n";
-    std::cout << "4. Ver promedio de un estudiante\n";
-    std::cout << "5. Salir\n";
-    std::cout << "Seleccione una opción: ";
-}
